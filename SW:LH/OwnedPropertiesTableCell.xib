@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Munro.ttf">
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OwnedPropertiesTableCell" rowHeight="125" id="yYr-Wb-UXD" customClass="OwnedPropertiesTableCell" customModule="SW_LH" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="125"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yYr-Wb-UXD" id="GEl-di-Myi">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="124"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CVF-km-TeW">
+                        <rect key="frame" x="8" y="8" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="ayz-ez-gPe"/>
+                            <constraint firstAttribute="height" constant="50" id="efv-da-n7U"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rc-1k-XU5">
+                        <rect key="frame" x="66" y="8" width="50" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="7Ew-ej-LkT"/>
+                            <constraint firstAttribute="height" constant="15" id="eG1-ei-aql"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06N-px-kxu">
+                        <rect key="frame" x="124" y="9" width="105" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="105" id="Auc-In-jiz"/>
+                            <constraint firstAttribute="height" constant="15" id="vHC-7E-NlB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Power" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kut-0g-whS">
+                        <rect key="frame" x="66" y="100" width="50" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="6LM-9a-epf"/>
+                            <constraint firstAttribute="width" constant="50" id="ppk-IJ-9vx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Power" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lC-rO-cZY">
+                        <rect key="frame" x="124" y="100" width="105" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="QnB-Dn-BFW"/>
+                            <constraint firstAttribute="width" constant="105" id="WnL-7n-7Tq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZF0-cN-QRc">
+                        <rect key="frame" x="237" y="8" width="75" height="30"/>
+                        <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="KIl-Jr-w19"/>
+                            <constraint firstAttribute="width" constant="75" id="cld-dH-Jv8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <state key="normal" title="Add Junkies">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvm-DO-0kB">
+                        <rect key="frame" x="237" y="84" width="75" height="30"/>
+                        <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Uyi-WM-ZJT"/>
+                            <constraint firstAttribute="width" constant="75" id="aMh-Q1-0uJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <state key="normal" title="Add Crips">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Junkies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQf-5N-DrG">
+                        <rect key="frame" x="66" y="31" width="50" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="bnc-QU-nX8"/>
+                            <constraint firstAttribute="width" constant="50" id="xOG-v5-qtX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Junkies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGX-K4-gXZ">
+                        <rect key="frame" x="124" y="31" width="105" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="L60-yQ-zYA"/>
+                            <constraint firstAttribute="width" constant="105" id="mLJ-PU-QWa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ballers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rU-Vp-7KG">
+                        <rect key="frame" x="66" y="54" width="50" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="XXa-6A-JMU"/>
+                            <constraint firstAttribute="width" constant="50" id="kOd-bg-OAx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ballers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Rl-f2-hhx">
+                        <rect key="frame" x="124" y="55" width="105" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Jck-vL-5BR"/>
+                            <constraint firstAttribute="width" constant="105" id="hng-sy-cgE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezr-F6-dSP">
+                        <rect key="frame" x="66" y="77" width="50" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Pru-Qz-rYN"/>
+                            <constraint firstAttribute="width" constant="50" id="g1v-XT-9R3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fyd-42-kmi">
+                        <rect key="frame" x="237" y="46" width="75" height="30"/>
+                        <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="TC8-4O-i14"/>
+                            <constraint firstAttribute="width" constant="75" id="yZ5-iH-jqd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <state key="normal" title="Add Ballers">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5Y-no-bLB">
+                        <rect key="frame" x="124" y="78" width="105" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="105" id="DfG-a1-5HL"/>
+                            <constraint firstAttribute="height" constant="14" id="NVx-0j-COP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="KQf-5N-DrG" firstAttribute="top" secondItem="5rc-1k-XU5" secondAttribute="bottom" constant="8" id="2ze-fm-Wwb"/>
+                    <constraint firstItem="G5Y-no-bLB" firstAttribute="top" secondItem="0Rl-f2-hhx" secondAttribute="bottom" constant="8" id="4DH-Gf-mYa"/>
+                    <constraint firstItem="Ezr-F6-dSP" firstAttribute="top" secondItem="2rU-Vp-7KG" secondAttribute="bottom" constant="8" id="6ej-4Q-ilQ"/>
+                    <constraint firstAttribute="topMargin" secondItem="ZF0-cN-QRc" secondAttribute="top" id="6fs-PC-1qM"/>
+                    <constraint firstItem="06N-px-kxu" firstAttribute="leading" secondItem="5rc-1k-XU5" secondAttribute="trailing" constant="8" id="FIx-Cu-JKy"/>
+                    <constraint firstItem="5rc-1k-XU5" firstAttribute="leading" secondItem="CVF-km-TeW" secondAttribute="trailing" constant="8" id="FV8-r4-Tso"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="wvm-DO-0kB" secondAttribute="trailing" id="Fkb-DZ-j80"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Fyd-42-kmi" secondAttribute="trailing" id="G2n-uS-TYN"/>
+                    <constraint firstItem="G5Y-no-bLB" firstAttribute="leading" secondItem="Ezr-F6-dSP" secondAttribute="trailing" constant="8" id="HOS-d7-P4u"/>
+                    <constraint firstItem="06N-px-kxu" firstAttribute="top" secondItem="GEl-di-Myi" secondAttribute="topMargin" constant="1" id="HP7-SR-qil"/>
+                    <constraint firstItem="Ezr-F6-dSP" firstAttribute="leading" secondItem="CVF-km-TeW" secondAttribute="trailing" constant="8" id="OOj-eN-FCc"/>
+                    <constraint firstItem="Fyd-42-kmi" firstAttribute="top" secondItem="ZF0-cN-QRc" secondAttribute="bottom" constant="8" id="PUD-TV-99T"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ZF0-cN-QRc" secondAttribute="trailing" id="YRc-3n-RTg"/>
+                    <constraint firstItem="2rU-Vp-7KG" firstAttribute="top" secondItem="KQf-5N-DrG" secondAttribute="bottom" constant="8" id="aeZ-V2-XRQ"/>
+                    <constraint firstAttribute="topMargin" secondItem="CVF-km-TeW" secondAttribute="top" id="b6a-2t-Xro"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="CVF-km-TeW" secondAttribute="leading" id="chz-u1-KMP"/>
+                    <constraint firstAttribute="topMargin" secondItem="5rc-1k-XU5" secondAttribute="top" id="dE1-K1-SI0"/>
+                    <constraint firstItem="ZGX-K4-gXZ" firstAttribute="leading" secondItem="KQf-5N-DrG" secondAttribute="trailing" constant="8" id="ehu-89-iWR"/>
+                    <constraint firstItem="KQf-5N-DrG" firstAttribute="leading" secondItem="CVF-km-TeW" secondAttribute="trailing" constant="8" id="iQC-w0-l9V"/>
+                    <constraint firstItem="0Rl-f2-hhx" firstAttribute="top" secondItem="ZGX-K4-gXZ" secondAttribute="bottom" constant="9" id="jnK-jy-udH"/>
+                    <constraint firstItem="2rU-Vp-7KG" firstAttribute="leading" secondItem="CVF-km-TeW" secondAttribute="trailing" constant="8" id="nME-1B-qU4"/>
+                    <constraint firstItem="kut-0g-whS" firstAttribute="leading" secondItem="CVF-km-TeW" secondAttribute="trailing" constant="8" id="ndz-bo-PZ2"/>
+                    <constraint firstItem="wvm-DO-0kB" firstAttribute="top" secondItem="Fyd-42-kmi" secondAttribute="bottom" constant="8" id="plG-Ks-Xcg"/>
+                    <constraint firstItem="ZGX-K4-gXZ" firstAttribute="top" secondItem="06N-px-kxu" secondAttribute="bottom" constant="7" id="tm2-Ig-3Wi"/>
+                    <constraint firstItem="0lC-rO-cZY" firstAttribute="top" secondItem="G5Y-no-bLB" secondAttribute="bottom" constant="8" id="unf-tP-pW1"/>
+                    <constraint firstItem="kut-0g-whS" firstAttribute="top" secondItem="Ezr-F6-dSP" secondAttribute="bottom" constant="8" id="v4u-eA-g5b"/>
+                    <constraint firstItem="0lC-rO-cZY" firstAttribute="leading" secondItem="kut-0g-whS" secondAttribute="trailing" constant="8" id="x5P-wp-XgC"/>
+                    <constraint firstItem="0Rl-f2-hhx" firstAttribute="leading" secondItem="2rU-Vp-7KG" secondAttribute="trailing" constant="8" id="xhy-lB-O7b"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addBallersButton" destination="Fyd-42-kmi" id="TYp-qT-1IV"/>
+                <outlet property="addCripsButton" destination="wvm-DO-0kB" id="6uM-gn-qdT"/>
+                <outlet property="addJunkiesButton" destination="ZF0-cN-QRc" id="Q1f-Aa-pVS"/>
+                <outlet property="ballersLabel" destination="0Rl-f2-hhx" id="GhY-TF-euJ"/>
+                <outlet property="cripsLabel" destination="G5Y-no-bLB" id="Cja-MW-bpw"/>
+                <outlet property="junkiesLabel" destination="ZGX-K4-gXZ" id="Jt9-Bg-hcP"/>
+                <outlet property="powerLabel" destination="0lC-rO-cZY" id="EG0-Yk-0vc"/>
+                <outlet property="propertyImageView" destination="CVF-km-TeW" id="nLE-y9-GZc"/>
+                <outlet property="propertyNameLabel" destination="06N-px-kxu" id="MiJ-PJ-d5P"/>
+            </connections>
+            <point key="canvasLocation" x="348" y="289.5"/>
+        </tableViewCell>
+    </objects>
+</document>

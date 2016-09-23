@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Munro.ttf">
+            <string>Munro</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MoreTableCell" id="Mhb-j3-mfI" customClass="MoreTableCell" customModule="SW_LH" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qny-H5-4dO">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="77"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="77" id="0vM-wx-HlJ"/>
+                            <constraint firstAttribute="width" constant="100" id="MhN-wk-0dN"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rOL-MJ-ImJ">
+                        <rect key="frame" x="0.0" y="85" width="100" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="3eF-fS-fNg"/>
+                            <constraint firstAttribute="width" constant="100" id="eCX-WY-5pl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Qny-H5-4dO" firstAttribute="leading" secondItem="Mhb-j3-mfI" secondAttribute="leading" id="JsJ-mj-RY3"/>
+                <constraint firstItem="rOL-MJ-ImJ" firstAttribute="top" secondItem="Qny-H5-4dO" secondAttribute="bottom" constant="8" id="Lki-4K-R44"/>
+                <constraint firstAttribute="bottom" secondItem="Qny-H5-4dO" secondAttribute="bottom" constant="23" id="QPk-N2-AIw"/>
+                <constraint firstAttribute="bottom" secondItem="rOL-MJ-ImJ" secondAttribute="bottom" id="T9g-jv-cXe"/>
+                <constraint firstAttribute="trailing" secondItem="Qny-H5-4dO" secondAttribute="trailing" id="V41-EF-xzi"/>
+                <constraint firstItem="rOL-MJ-ImJ" firstAttribute="leading" secondItem="Mhb-j3-mfI" secondAttribute="leading" id="YsE-Be-Ogq"/>
+                <constraint firstAttribute="trailing" secondItem="rOL-MJ-ImJ" secondAttribute="trailing" id="yNK-QG-UMm"/>
+            </constraints>
+            <connections>
+                <outlet property="moreTabImageView" destination="Qny-H5-4dO" id="tlC-p1-gdT"/>
+                <outlet property="moreTabTitleLabel" destination="rOL-MJ-ImJ" id="5HH-fz-pMZ"/>
+            </connections>
+            <point key="canvasLocation" x="754" y="277"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Munro.ttf">
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FightResultNotificationTableCell" rowHeight="100" id="Mzf-HH-wvK" customClass="FightResultNotificationTableCell" customModule="SW_LH" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mzf-HH-wvK" id="fbe-7P-a4p">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ez-3d-luZ">
+                        <rect key="frame" x="0.0" y="78" width="320" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="320" id="RQJ-G4-lIJ"/>
+                            <constraint firstAttribute="height" constant="21" id="bZb-Zt-JLk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="12"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xo-XS-JHz">
+                        <rect key="frame" x="256" y="27" width="56" height="30"/>
+                        <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="56" id="PjM-g8-i3m"/>
+                            <constraint firstAttribute="height" constant="30" id="xK4-Xs-qGo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="12"/>
+                        <state key="normal" title="Retaliate">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qB4-XW-LEt">
+                        <rect key="frame" x="48" y="12" width="200" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="EZs-YN-6CP"/>
+                            <constraint firstAttribute="height" constant="60" id="hLv-vk-hUl"/>
+                        </constraints>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="12"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="0Ez-3d-luZ" firstAttribute="leading" secondItem="fbe-7P-a4p" secondAttribute="leadingMargin" constant="-8" id="4CJ-ie-sum"/>
+                    <constraint firstItem="qB4-XW-LEt" firstAttribute="leading" secondItem="fbe-7P-a4p" secondAttribute="leadingMargin" constant="40" id="J9U-0c-zb1"/>
+                    <constraint firstItem="2xo-XS-JHz" firstAttribute="top" secondItem="fbe-7P-a4p" secondAttribute="topMargin" constant="19" id="Ktt-ER-Zfn"/>
+                    <constraint firstItem="0Ez-3d-luZ" firstAttribute="top" secondItem="2xo-XS-JHz" secondAttribute="bottom" constant="21" id="T1W-DT-cVz"/>
+                    <constraint firstItem="2xo-XS-JHz" firstAttribute="leading" secondItem="qB4-XW-LEt" secondAttribute="trailing" constant="8" id="YMB-pp-4iU"/>
+                    <constraint firstItem="qB4-XW-LEt" firstAttribute="top" secondItem="fbe-7P-a4p" secondAttribute="topMargin" constant="4" id="c6l-tZ-PxS"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="0Ez-3d-luZ" secondAttribute="trailing" constant="-8" id="hlH-vl-NMH"/>
+                    <constraint firstItem="0Ez-3d-luZ" firstAttribute="top" secondItem="qB4-XW-LEt" secondAttribute="bottom" constant="6" id="ihy-0j-kZi"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="0Ez-3d-luZ" secondAttribute="bottom" constant="-8" id="phb-Dd-rQY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="notificationDate" destination="0Ez-3d-luZ" id="sKb-92-Qw0"/>
+                <outlet property="notificationDescription" destination="qB4-XW-LEt" id="iGt-hJ-0NE"/>
+                <outlet property="retaliateButton" destination="2xo-XS-JHz" id="h7e-yc-NPy"/>
+            </connections>
+            <point key="canvasLocation" x="347" y="252"/>
+        </tableViewCell>
+    </objects>
+</document>

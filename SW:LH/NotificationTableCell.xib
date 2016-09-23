@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Munro.ttf">
+            <string>Munro</string>
+            <string>Munro</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotificationTableCell" rowHeight="100" id="Uav-fd-T9L" customClass="NotificationTableCell" customModule="SW_LH" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="102"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Uav-fd-T9L" id="iic-YT-yWA">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcP-4f-Sq3">
+                        <rect key="frame" x="0.0" y="80" width="320" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="L47-4c-3ft"/>
+                            <constraint firstAttribute="width" constant="320" id="f5h-BD-UWg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="12"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JG0-Cc-a4X">
+                        <rect key="frame" x="40" y="8" width="240" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="240" id="3Oh-9a-nkL"/>
+                            <constraint firstAttribute="height" constant="60" id="cay-SW-GdF"/>
+                        </constraints>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="12"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="LcP-4f-Sq3" firstAttribute="leading" secondItem="iic-YT-yWA" secondAttribute="leadingMargin" constant="-8" id="2dG-Gi-WsY"/>
+                    <constraint firstAttribute="topMargin" secondItem="JG0-Cc-a4X" secondAttribute="top" id="5lh-kL-q38"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="LcP-4f-Sq3" secondAttribute="trailing" constant="-8" id="DW9-So-0kk"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="LcP-4f-Sq3" secondAttribute="bottom" constant="-8" id="QYN-Tm-sVI"/>
+                    <constraint firstItem="LcP-4f-Sq3" firstAttribute="top" secondItem="JG0-Cc-a4X" secondAttribute="bottom" constant="12" id="ZFx-VN-iYm"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="JG0-Cc-a4X" secondAttribute="leading" id="c27-iK-GAt"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="JG0-Cc-a4X" secondAttribute="trailing" constant="64" id="jb1-Wg-HWJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="LcP-4f-Sq3" id="IO1-aU-o3g"/>
+                <outlet property="descriptionTextView" destination="JG0-Cc-a4X" id="4mI-zf-szb"/>
+            </connections>
+            <point key="canvasLocation" x="348" y="234"/>
+        </tableViewCell>
+    </objects>
+</document>

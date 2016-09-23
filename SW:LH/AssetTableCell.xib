@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Munro.ttf">
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AssetTableCell" rowHeight="120" id="EiD-oo-Dxr" customClass="AssetTableCell" customModule="SW_LH" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EiD-oo-Dxr" id="xCJ-Ej-B8W">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ilf-p2-yg1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="320" id="Aof-87-8yC"/>
+                            <constraint firstAttribute="height" constant="15" id="aDb-qH-r2n"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jE-ev-jfB">
+                        <rect key="frame" x="8" y="54" width="65" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Tjs-1b-gJA"/>
+                            <constraint firstAttribute="width" constant="65" id="XZf-YG-wuI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Increases junkie attack by 2 for each level" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PdZ-qx-7oo">
+                        <rect key="frame" x="83" y="23" width="155" height="88"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="88" id="lcg-PZ-cy1"/>
+                            <constraint firstAttribute="width" constant="155" id="w1G-bo-XZO"/>
+                        </constraints>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omM-JL-Qbc">
+                        <rect key="frame" x="247" y="35" width="65" height="30"/>
+                        <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="65" id="CP7-So-JO4"/>
+                            <constraint firstAttribute="height" constant="30" id="m0Q-kY-Ska"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <state key="normal" title="Upgrade">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mG-WX-9Mk">
+                        <rect key="frame" x="8" y="31" width="65" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="65" id="6ZJ-lo-l6o"/>
+                            <constraint firstAttribute="height" constant="15" id="d5S-2J-qSR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.61176472900000001" blue="0.93333339689999995" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="Ilf-p2-yg1" secondAttribute="trailing" constant="-8" id="2SK-Z5-v4s"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="1jE-ev-jfB" secondAttribute="leading" id="5ic-He-JWd"/>
+                    <constraint firstItem="6mG-WX-9Mk" firstAttribute="top" secondItem="Ilf-p2-yg1" secondAttribute="bottom" constant="16" id="65Y-wZ-j8r"/>
+                    <constraint firstAttribute="topMargin" secondItem="Ilf-p2-yg1" secondAttribute="top" constant="8" id="CP3-TE-IQm"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="omM-JL-Qbc" secondAttribute="bottom" constant="46" id="Oye-7M-aoJ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="1jE-ev-jfB" secondAttribute="bottom" constant="42" id="TEr-57-FUr"/>
+                    <constraint firstItem="PdZ-qx-7oo" firstAttribute="centerX" secondItem="xCJ-Ej-B8W" secondAttribute="centerX" id="WtC-Lj-o0s"/>
+                    <constraint firstItem="PdZ-qx-7oo" firstAttribute="top" secondItem="Ilf-p2-yg1" secondAttribute="bottom" constant="8" id="XkK-cV-Q2d"/>
+                    <constraint firstItem="omM-JL-Qbc" firstAttribute="top" secondItem="Ilf-p2-yg1" secondAttribute="bottom" constant="20" id="diJ-ci-o3y"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="omM-JL-Qbc" secondAttribute="trailing" id="iuu-wx-4W7"/>
+                    <constraint firstItem="Ilf-p2-yg1" firstAttribute="leading" secondItem="xCJ-Ej-B8W" secondAttribute="leadingMargin" constant="-8" id="j8z-NG-hes"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="6mG-WX-9Mk" secondAttribute="leading" id="jUM-Q7-Yz9"/>
+                    <constraint firstItem="1jE-ev-jfB" firstAttribute="top" secondItem="6mG-WX-9Mk" secondAttribute="bottom" constant="8" id="kxh-Xy-l0R"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="PdZ-qx-7oo" secondAttribute="bottom" id="x7Z-RI-fdK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="assetCostLabel" destination="1jE-ev-jfB" id="mfd-jr-WDo"/>
+                <outlet property="assetDescriptionLabel" destination="PdZ-qx-7oo" id="eMz-sI-JtG"/>
+                <outlet property="assetLevelLabel" destination="6mG-WX-9Mk" id="TlS-9h-fNR"/>
+                <outlet property="assetTitleLabel" destination="Ilf-p2-yg1" id="ogs-qd-EwL"/>
+                <outlet property="upgradeAssetButton" destination="omM-JL-Qbc" id="elA-2d-zHJ"/>
+            </connections>
+            <point key="canvasLocation" x="369" y="275"/>
+        </tableViewCell>
+    </objects>
+</document>

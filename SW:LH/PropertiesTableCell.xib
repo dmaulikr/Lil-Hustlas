@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Munro.ttf">
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PropertiesTableCell" rowHeight="75" id="IIJ-6C-2DN" customClass="PropertiesTableCell" customModule="SW_LH" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IIJ-6C-2DN" id="5ca-a0-DXk">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crackhouse3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="AuZ-rC-mUa">
+                        <rect key="frame" x="8" y="8" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Egb-cB-z9L"/>
+                            <constraint firstAttribute="width" constant="50" id="KPd-V9-tS4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Owner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uV-Ea-jeb">
+                        <rect key="frame" x="66" y="31" width="42" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="mwL-pB-zbH"/>
+                            <constraint firstAttribute="height" constant="15" id="riI-T5-LWQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wot-gn-qSG">
+                        <rect key="frame" x="66" y="8" width="42" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="Y64-64-cMR"/>
+                            <constraint firstAttribute="height" constant="15" id="r9q-8B-wDZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kef-SY-dcD">
+                        <rect key="frame" x="116" y="8" width="100" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="196" id="T3e-2k-YOm"/>
+                            <constraint firstAttribute="height" constant="15" id="yBd-uo-CjI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JyP-9o-gVt">
+                        <rect key="frame" x="116" y="31" width="100" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="3L2-pG-qfq"/>
+                            <constraint firstAttribute="width" constant="196" id="8gn-eh-GHq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgc-Pa-uEf">
+                        <rect key="frame" x="116" y="51" width="100" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="196" id="vMT-S8-cGJ"/>
+                            <constraint firstAttribute="height" constant="15" id="yLn-RB-9fa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Power" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A4f-ay-xl3">
+                        <rect key="frame" x="66" y="51" width="42" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="hvQ-nh-rfF"/>
+                            <constraint firstAttribute="height" constant="15" id="zse-eQ-vai"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GtJ-NO-Wlr">
+                        <rect key="frame" x="237" y="18" width="75" height="30"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="8k3-HM-Ks5"/>
+                            <constraint firstAttribute="height" constant="30" id="Seo-Ve-9pf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <state key="normal" title="Attack">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="GtJ-NO-Wlr" secondAttribute="bottom" constant="18" id="0R7-M1-GmM"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="hgc-Pa-uEf" secondAttribute="trailing" id="0sx-TZ-r01"/>
+                    <constraint firstItem="JyP-9o-gVt" firstAttribute="leading" secondItem="3uV-Ea-jeb" secondAttribute="trailing" constant="8" id="7QO-WZ-8gQ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="JyP-9o-gVt" secondAttribute="trailing" id="9sJ-XR-0hb"/>
+                    <constraint firstItem="GtJ-NO-Wlr" firstAttribute="top" secondItem="5ca-a0-DXk" secondAttribute="topMargin" constant="10" id="EPF-6p-2UF"/>
+                    <constraint firstItem="Wot-gn-qSG" firstAttribute="leading" secondItem="AuZ-rC-mUa" secondAttribute="trailing" constant="8" id="F4j-XD-hmy"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="AuZ-rC-mUa" secondAttribute="leading" id="FWl-fK-5Zq"/>
+                    <constraint firstItem="A4f-ay-xl3" firstAttribute="top" secondItem="3uV-Ea-jeb" secondAttribute="bottom" constant="5" id="G8S-4F-PSW"/>
+                    <constraint firstItem="kef-SY-dcD" firstAttribute="leading" secondItem="Wot-gn-qSG" secondAttribute="trailing" constant="8" id="HhG-lY-Ojo"/>
+                    <constraint firstItem="3uV-Ea-jeb" firstAttribute="top" secondItem="Wot-gn-qSG" secondAttribute="bottom" constant="8" id="Iih-0a-H9R"/>
+                    <constraint firstItem="hgc-Pa-uEf" firstAttribute="top" secondItem="JyP-9o-gVt" secondAttribute="bottom" constant="5" id="M9E-d8-gSP"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="hgc-Pa-uEf" secondAttribute="bottom" id="Yt1-g6-Jhv"/>
+                    <constraint firstItem="JyP-9o-gVt" firstAttribute="top" secondItem="kef-SY-dcD" secondAttribute="bottom" constant="8" id="bHW-Ul-WTI"/>
+                    <constraint firstItem="hgc-Pa-uEf" firstAttribute="leading" secondItem="A4f-ay-xl3" secondAttribute="trailing" constant="8" id="fMK-Fc-RMf"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="GtJ-NO-Wlr" secondAttribute="trailing" id="jWP-kK-0lu"/>
+                    <constraint firstItem="A4f-ay-xl3" firstAttribute="leading" secondItem="AuZ-rC-mUa" secondAttribute="trailing" constant="8" id="nuv-kH-O5Y"/>
+                    <constraint firstAttribute="topMargin" secondItem="AuZ-rC-mUa" secondAttribute="top" id="p7w-Et-T4J"/>
+                    <constraint firstAttribute="topMargin" secondItem="Wot-gn-qSG" secondAttribute="top" id="tSD-vp-5sE"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="kef-SY-dcD" secondAttribute="trailing" id="taJ-Ht-bGi"/>
+                    <constraint firstItem="3uV-Ea-jeb" firstAttribute="leading" secondItem="AuZ-rC-mUa" secondAttribute="trailing" constant="8" id="tjr-ol-nKG"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="AuZ-rC-mUa" secondAttribute="bottom" constant="8" id="zo4-WF-HZ7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="attackButton" destination="GtJ-NO-Wlr" id="WNe-Qq-E0S"/>
+                <outlet property="nameLabel" destination="kef-SY-dcD" id="eeP-tM-B97"/>
+                <outlet property="ownerLabel" destination="JyP-9o-gVt" id="YbB-PU-74s"/>
+                <outlet property="powerLabel" destination="hgc-Pa-uEf" id="O4w-Uf-tWk"/>
+                <outlet property="propertyImageView" destination="AuZ-rC-mUa" id="OIE-eN-bzp"/>
+            </connections>
+            <point key="canvasLocation" x="358" y="238.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="crackhouse3.jpg" width="100" height="100"/>
+    </resources>
+</document>

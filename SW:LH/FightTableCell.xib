@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Munro.ttf">
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FightTableCell" rowHeight="75" id="fwq-uC-Cjk" customClass="FightTableCell" customModule="SW_LH" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fwq-uC-Cjk" id="cYG-pm-OQG">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hood level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgO-DJ-XEu">
+                        <rect key="frame" x="8" y="31" width="200" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="HSb-vU-nh0"/>
+                            <constraint firstAttribute="width" constant="200" id="api-AB-lOC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.61176472900000001" blue="0.93333339689999995" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Power" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5E-f4-lgk">
+                        <rect key="frame" x="8" y="54" width="200" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="76u-YK-r10"/>
+                            <constraint firstAttribute="width" constant="200" id="cWL-b2-lLv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiG-l3-Dv1">
+                        <rect key="frame" x="237" y="21" width="75" height="30"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="6gP-5v-GLa"/>
+                            <constraint firstAttribute="width" constant="75" id="Est-hZ-vTo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <state key="normal" title="Fight">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8IF-0I-uA0">
+                        <rect key="frame" x="8" y="8" width="200" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="6st-Yt-83f"/>
+                            <constraint firstAttribute="width" constant="200" id="NlL-QD-iHK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="qgO-DJ-XEu" firstAttribute="top" secondItem="8IF-0I-uA0" secondAttribute="bottom" constant="8" id="3U5-eT-PTm"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="xiG-l3-Dv1" secondAttribute="trailing" id="3r1-pP-pEr"/>
+                    <constraint firstItem="xiG-l3-Dv1" firstAttribute="leading" secondItem="D5E-f4-lgk" secondAttribute="trailing" constant="29" id="6yv-ss-aBB"/>
+                    <constraint firstAttribute="topMargin" secondItem="8IF-0I-uA0" secondAttribute="top" id="8j7-th-oFb"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="xiG-l3-Dv1" secondAttribute="bottom" constant="15" id="PsE-yq-tob"/>
+                    <constraint firstItem="xiG-l3-Dv1" firstAttribute="top" secondItem="8IF-0I-uA0" secondAttribute="bottom" constant="-2" id="TKq-GB-jUQ"/>
+                    <constraint firstItem="xiG-l3-Dv1" firstAttribute="leading" secondItem="qgO-DJ-XEu" secondAttribute="trailing" constant="29" id="YAG-1A-rM8"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="D5E-f4-lgk" secondAttribute="leading" id="buY-lz-e2k"/>
+                    <constraint firstItem="xiG-l3-Dv1" firstAttribute="top" secondItem="cYG-pm-OQG" secondAttribute="topMargin" constant="13" id="dGS-YS-hfT"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="8IF-0I-uA0" secondAttribute="leading" id="mGV-DZ-fQm"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="qgO-DJ-XEu" secondAttribute="leading" id="nyK-zI-oIA"/>
+                    <constraint firstItem="D5E-f4-lgk" firstAttribute="top" secondItem="qgO-DJ-XEu" secondAttribute="bottom" constant="8" id="pby-JQ-fkp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="fightButton" destination="xiG-l3-Dv1" id="72t-s9-KGS"/>
+                <outlet property="hoodLevelLabel" destination="qgO-DJ-XEu" id="Scc-yu-4DK"/>
+                <outlet property="powerLabel" destination="D5E-f4-lgk" id="nji-Sq-z5M"/>
+                <outlet property="usernameLabel" destination="8IF-0I-uA0" id="N92-1g-1jo"/>
+            </connections>
+            <point key="canvasLocation" x="333" y="228.5"/>
+        </tableViewCell>
+    </objects>
+</document>

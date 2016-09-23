@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Munro.ttf">
+            <string>Munro</string>
+            <string>Munro</string>
+            <string>Munro</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatTableCell" rowHeight="150" id="e0f-Lk-ZMR" customClass="ChatTableCell" customModule="SW_LH" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="e0f-Lk-ZMR" id="ErL-dm-vrl">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="149"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5V2-Uv-etE">
+                        <rect key="frame" x="51" y="8" width="261" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="261" id="sql-CV-PSc"/>
+                            <constraint firstAttribute="height" constant="15" id="uOX-5B-Apo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="huZ-nj-VxM">
+                        <rect key="frame" x="8" y="8" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="pam-fu-x2t"/>
+                            <constraint firstAttribute="width" constant="35" id="riW-RQ-i1d"/>
+                        </constraints>
+                    </imageView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LZ4-eR-roK">
+                        <rect key="frame" x="8" y="51" width="304" height="65"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="304" id="F9P-Hh-D4H"/>
+                            <constraint firstAttribute="height" constant="65" id="LZL-ll-j1m"/>
+                        </constraints>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqG-MX-mOn">
+                        <rect key="frame" x="0.0" y="124" width="320" height="25"/>
+                        <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="42R-BJ-S3S"/>
+                            <constraint firstAttribute="width" constant="320" id="8pd-FY-j5W"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Munro" family="Munro" pointSize="14"/>
+                        <state key="normal" title="Block User">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="5V2-Uv-etE" secondAttribute="trailing" id="2jL-hj-rff"/>
+                    <constraint firstItem="LZ4-eR-roK" firstAttribute="top" secondItem="huZ-nj-VxM" secondAttribute="bottom" constant="8" id="60p-Fb-fn0"/>
+                    <constraint firstItem="bqG-MX-mOn" firstAttribute="top" secondItem="LZ4-eR-roK" secondAttribute="bottom" constant="8" id="6u3-Ea-ErK"/>
+                    <constraint firstAttribute="topMargin" secondItem="huZ-nj-VxM" secondAttribute="top" id="BEn-nM-cY7"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="LZ4-eR-roK" secondAttribute="trailing" id="OCP-zo-QYL"/>
+                    <constraint firstItem="bqG-MX-mOn" firstAttribute="leading" secondItem="ErL-dm-vrl" secondAttribute="leadingMargin" constant="-8" id="RV6-fd-cup"/>
+                    <constraint firstItem="LZ4-eR-roK" firstAttribute="leading" secondItem="ErL-dm-vrl" secondAttribute="leadingMargin" id="Ttd-dl-iae"/>
+                    <constraint firstItem="5V2-Uv-etE" firstAttribute="leading" secondItem="huZ-nj-VxM" secondAttribute="trailing" constant="8" id="UQc-E5-B91"/>
+                    <constraint firstAttribute="topMargin" secondItem="5V2-Uv-etE" secondAttribute="top" id="iJw-id-Vnx"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="huZ-nj-VxM" secondAttribute="leading" id="jHN-gh-tSh"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="bqG-MX-mOn" secondAttribute="trailing" constant="-8" id="pLv-f8-sPx"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="LZ4-eR-roK" secondAttribute="bottom" constant="-8" id="uWP-Zy-VR5"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="bqG-MX-mOn" secondAttribute="bottom" constant="-8" id="ueN-VP-jga"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="uWP-Zy-VR5"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avatarImageView" destination="huZ-nj-VxM" id="CHX-v4-X2Q"/>
+                <outlet property="blockUserButton" destination="bqG-MX-mOn" id="Fqk-Ea-52a"/>
+                <outlet property="chatTextView" destination="LZ4-eR-roK" id="mOm-fp-b4Q"/>
+                <outlet property="usernameLabel" destination="5V2-Uv-etE" id="ofW-Bh-xLw"/>
+            </connections>
+            <point key="canvasLocation" x="359" y="266"/>
+        </tableViewCell>
+    </objects>
+</document>
